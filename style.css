@@ -1,0 +1,106 @@
+.name-highlight{
+    color: rgb(211, 17, 66);
+}
+.top{
+    width: 40%;
+    float: left;
+    margin:5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top img{
+    width:100%;
+    margin:5%;
+    margin-top: -25%;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(148, 12, 114),rgb(189, 11, 11));
+    padding: 10px 10px;
+    color: white;
+
+}
+.top-side{
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.middle{
+    width: 40%;
+    float: left;
+    margin:5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.middle img{
+    width:100%;
+    margin:5%;
+    margin-top: -25%;
+}
+.biography{
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.work{
+    height: 400px;
+}
+.image{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+.latest-work{
+    text-align: center;
+    background-image: url(personal-website/latest-work-bg.PNG);
+}
+.client-comment{
+    text-align: center;
+}
+.comment{
+    text-align: center;
+}
+.message{
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(to right, rgb(255, 0, 200),rgb(218, 11, 11));
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2px;
+    margin-left: 35%;
+}
+h5{
+    font-family:'Times New Roman', Times, serif;
+}
+.ceo{
+    font-size: 20px;
+}
+.anim h4{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(240, 221, 221);
+}
+.anim{
+    margin-left: 40%;
+    width: 300px;
+    background-color: chartreuse;
+    animation-name: thanks;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes thanks{
+    0% { background-color: red; left: 0px;top: 0px;}
+    25% { background-color:green; left: 100px;top: 0px;}
+    50% { background-color: rgb(200, 255, 0); left: 150px;top: 0px;}
+    100% { background-color: rgb(55, 0, 255); left: 150px;top: 0px;}
+}
+footer{
+    text-align: center;
+    background-image: url(personal-website/footer-bg.png);
+}
